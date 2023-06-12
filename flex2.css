@@ -1,0 +1,31 @@
+main{
+    width: 80%;
+    background-color: aquamarine;
+    margin: auto;
+
+}
+
+
+.contenedor{
+    display: flex;
+    justify-content: space-around;
+    align-content: stretch;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.contenido {
+width: 100px;
+height: 100px;
+border: 2px solid #123;
+text-align: center;
+margin: 10px;
+border-radius: 6px;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
