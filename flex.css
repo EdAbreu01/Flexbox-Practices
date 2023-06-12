@@ -21,36 +21,10 @@ display: flex;
 }
 
 
-.tipos_footer{
-    display: flex;
-    flex-direction: column;
-    height: 300px;
-    flex-wrap: wrap;
-}
 
 .footer_closing_container{
 display: flex;
 justify-content: space-between;   
 }
 
-.logos{
-    display: flex;
-    align-items: center;
-    width: 30%;
-    margin-right: 5%;
-    justify-content: space-between;
-
-
-}
-
-
-
-.formulario_closing{
-    width: 35%;
-}
-
-.formulario_closing_content{
-    display: flex;
-    justify-content: space-between;
-}
 

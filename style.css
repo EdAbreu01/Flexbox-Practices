@@ -150,14 +150,19 @@ font-size: 20px;
 
 .footer_main{
     padding-top: 12px;
-
     background-color: #4f5057;
 }
 
 .footer_container{
     width: 75%;
-    margin: 0 auto;
-    
+    margin: 0 auto;   
+}
+
+.tipos_footer{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    flex-wrap: wrap;
 }
 
 .footer_container nav h3 {
@@ -226,6 +231,26 @@ fieldset{
     border: none;
 }
 
+.logos{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-right: 5%;
+    justify-content: space-between;
+}
+
+
+
+.formulario_closing{
+    width: 35%;
+}
+
+.formulario_closing_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
 /* RESPONSIVE MOBILE*/
 
 
@@ -245,21 +270,74 @@ text-align: center;
             
 .main_content{
 padding: 0px;
-gap: 5px;
+gap: 2px;
 }
 
 .subtitulos{
 text-align: center;
 }
 
+.subtitulos2{
+    text-align: center;
+    color: #ffffff;
+    }
+
 .main_content_courses_link{
 background-color: #FFF;
 text-decoration: none;
-margin: 12px;
+margin: 4px;
 color: #9799A6;
+width: 100%;
 box-shadow: 2px 2px 2px #CCC; 
 border-radius: 4px;
 text-align: center;
+height: auto;
+}
+
+.tipos_footer{
+    display: flex;
+    flex-direction: column;
+    height: 300px;
+    flex-wrap: nowrap;
+    height: fit-content;
+    text-align: center;
 
 }
+
+.footer_closing_container{
+    display: flex;
+    flex-direction: column;
+
+    gap: 20px;
+    }
     
+    .logos{
+        display: flex;
+        flex-direction: column;
+        align-items: none;
+        width: 100%;
+        margin-right: none;
+        justify-content: none;
+    }
+    
+    img{
+        margin:0px 30px 30px 30px;
+    
+    }
+    
+    .formulario_closing{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .formulario_closing_content{
+        display: flex;
+        justify-content: none;
+    }
+
+
+
+legend{
+margin: auto;
+}
+     
